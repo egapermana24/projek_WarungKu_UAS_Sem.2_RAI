@@ -1,0 +1,18 @@
+
+.animasi-teks 
+        {
+            font-size: 30px;
+            width: 100%;
+            white-space:nowrap;
+            overflow:hidden;
+            -webkit-animation: ketik 5s steps(50, end);
+            animation: ketik 5s steps(50, end);
+        }
+ 
+        @keyframes ketik{
+            from { width: 0; }
+        }
+ 
+        @-webkit-keyframes ketik{
+            from { width: 0; }
+        }
